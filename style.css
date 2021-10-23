@@ -9,6 +9,12 @@ p
     font-family: sans-serif;
 }
 
+.largetext
+{
+    font-family: sans-serif;
+    font-size: 96px;
+}
+
 .tt
 {
     font-family: sans-serif;
