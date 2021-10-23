@@ -1,12 +1,22 @@
-.zoom{
-    width:1920px;
-    margin:0 auto;
+h1
+{
+    font-family:'メイリオ';
+    margin: 50px;
+}
+
+.tt
+{
+    width: 240px;
+}
+.zoom_title{
+    width: 1920px;
+    margin: 50px;
     overflow:hidden;
    }
-   .zoom img{
-    transition:1s all;
+   .zoom_title img{
+    transition:0.5s all;
    }
-   .zoom img:hover{
+   .zoom_title img:hover{
      transform:scale(1.2,1.2);
-     transition:1s all;
+     transition:0.5s all;
    }
