@@ -50,3 +50,18 @@ p
      transform:scale(1.5,1.5);
      transition:0.5s all;
 }
+
+table,
+td {
+    font-family: sans-serif;
+    font-size: 14px;
+    border: 1px solid #333;
+}
+
+thead,
+tfoot {
+    font-family: sans-serif;
+    font-size: 14px;
+    background-color: #333;
+    color: #fff;
+}
