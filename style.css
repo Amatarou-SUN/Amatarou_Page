@@ -16,6 +16,12 @@ p
     font-size: 14px;
 }
 
+a
+{
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
 .largetext
 {
     font-family: sans-serif;
@@ -55,7 +61,7 @@ table,
 td {
     font-family: sans-serif;
     font-size: 14px;
-    
+
     border: 1px solid #333;
 }
 
