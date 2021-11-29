@@ -16,10 +16,19 @@ p
     font-size: 14px;
 }
 
+bold
+{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
 a
 {
     font-family: sans-serif;
     font-size: 14px;
+    color: #007f;
+    text-decoration: none;
 }
 
 iframe
