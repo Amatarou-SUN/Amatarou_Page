@@ -121,7 +121,7 @@ bold
    
 .zoom_title img:hover
 {
-     transform:scale(1.25,1.25);
+     transform:scale(112.5%);
      transition:0.5s all;
 }
 
