@@ -35,11 +35,32 @@ header
     height: 32px;
     /*box-sizing: border-box;*/
     align-items: center;
+    position: relative;
 }
 
 button
 {    
-    border-width: 1px;
+    font-family: 'Segoe UI', Tahoma, Verdana, 'Meiryo', sans-serif;
+    display: inline-block;
+    font-size: 14px;
+    border-width: 0px;
+    border-radius: 8px;
+    width: 160px;
+    height: 32px;
+    background-color: #F0F0F0;
+    color: #000;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    transition: 0.125s;
+}
+
+button:active
+{
+    background-color: #c0c0c0;
+    transform: scale(90%);
+    transition: 0.125s;
 }
 
 bold
@@ -48,18 +69,6 @@ bold
     font-size: 14px;
     font-weight: bold;
 }
-
-.button_link
-{
-    font-family: 'Segoe UI', Tahoma, Verdana, 'Meiryo', sans-serif;
-    font-size: 14px;
-    float: left;
-    
-    width: 240px;
-    height: 32px;
-    margin: 0px;
-}
-
 .mainstyle
 {    
     font-family: 'Segoe UI', Tahoma, Verdana, 'Meiryo', sans-serif;
@@ -112,7 +121,7 @@ bold
    
 .zoom_title img:hover
 {
-     transform:scale(1.5,1.5);
+     transform:scale(1.25,1.25);
      transition:0.5s all;
 }
 
