@@ -1,13 +1,13 @@
 h1
 {
     font-family: 'Segoe UI', Tahoma, Verdana, 'Meiryo', sans-serif;
-    font-size: 32px;
+    font-size: 32px; 
 }
 
 h2
 {
     font-family: 'Segoe UI', Tahoma, Verdana, 'Meiryo', sans-serif;
-    font-size: 20px;
+    font-size: 20px;  
 }
 
 p
@@ -18,8 +18,26 @@ p
 
 a
 {
+    transition: 0.5s all;
     font-family: 'Segoe UI', Tahoma, Verdana, 'Meiryo', sans-serif;
-    color: #007f;
+    font-size: 14px;
+    color: #000080;
+    text-decoration: none;
+}
+
+a:hover
+{
+    transition: 0.5s all;
+    font-family: 'Segoe UI', Tahoma, Verdana, 'Meiryo', sans-serif;
+    color: #0000f0;
+    text-decoration: none;
+}
+
+a:active
+{
+    transition: 0.125s all;
+    font-family: 'Segoe UI', Tahoma, Verdana, 'Meiryo', sans-serif;
+    color: #000010;
     text-decoration: none;
 }
 
@@ -45,8 +63,6 @@ button
     font-size: 14px;
     border-width: 0px;
     border-radius: 8px;
-    width: 160px;
-    height: 32px;
     background-color: #F0F0F0;
     color: #000;
 
@@ -59,8 +75,36 @@ button
 button:active
 {
     background-color: #c0c0c0;
-    transform: scale(90%);
-    transition: 0.125s;
+    transform: scale(87.5%);
+    transition: 0.125s;/*
+    background: linear-gradient(180deg, #404040, #808080);
+    transition: 0.125s;*/
+}
+
+.linkbutton
+{
+    width: 160px;
+    height: 32px;
+}
+
+.selfintroductionlinkbutton
+{
+    width: 240px;
+    height: 32px;
+    text-align: left;
+}
+
+.blogback
+{
+    width: 60px;
+    height: 48px;
+    float: left;
+	display: inline;    
+}
+
+.blogtitle
+{
+	display: inline;    
 }
 
 bold
@@ -69,6 +113,7 @@ bold
     font-size: 14px;
     font-weight: bold;
 }
+
 .mainstyle
 {    
     font-family: 'Segoe UI', Tahoma, Verdana, 'Meiryo', sans-serif;
@@ -130,13 +175,13 @@ td {
     font-family: 'Segoe UI', Tahoma, Verdana, 'Meiryo', sans-serif;
     font-size: 14px;
 
-    border: 1px solid #333;
+    border: 1px solid #c0c0c0;
 }
 
 thead,
 tfoot {
     font-family: 'Segoe UI', Tahoma, Verdana, 'Meiryo', sans-serif;
     font-size: 14px;
-    background-color: #333;
-    color: #fff;
+    background-color: #f0f0f0;
+    color: #000;
 }
