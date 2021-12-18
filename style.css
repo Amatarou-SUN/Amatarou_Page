@@ -56,8 +56,10 @@ header
     position: relative;
 }
 
-button
-{    
+button 
+{
+    transition: 0.125s;
+
     font-family: 'Segoe UI', Tahoma, Verdana, 'Meiryo', sans-serif;
     display: inline-block;
     font-size: 14px;
@@ -65,18 +67,15 @@ button
     border-radius: 8px;
     background-color: #F0F0F0;
     color: #000;
-
     -webkit-appearance: none;
     -moz-appearance: none;
-
-    transition: 0.125s;
 }
 
-button:active
+button:active 
 {
+    transition: 0.125s;
     background-color: #c0c0c0;
-    transform: scale(87.5%);
-    transition: 0.125s;/*
+    transform: scale(87.5%); /*
     background: linear-gradient(180deg, #404040, #808080);
     transition: 0.125s;*/
 }
@@ -84,7 +83,7 @@ button:active
 .linkbutton
 {
     width: 160px;
-    height: 32px;
+    height: 32px;  
 }
 
 .selfintroductionlinkbutton
@@ -171,7 +170,8 @@ bold
 }
 
 table,
-td {
+td
+{
     font-family: 'Segoe UI', Tahoma, Verdana, 'Meiryo', sans-serif;
     font-size: 14px;
 
@@ -179,7 +179,8 @@ td {
 }
 
 thead,
-tfoot {
+tfoot
+{
     font-family: 'Segoe UI', Tahoma, Verdana, 'Meiryo', sans-serif;
     font-size: 14px;
     background-color: #f0f0f0;
