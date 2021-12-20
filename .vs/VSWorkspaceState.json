@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\blogs",
+    "\\blogs\\blogimg"
   ],
-  "SelectedNode": "\\site_change_history.html",
+  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }

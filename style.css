@@ -56,34 +56,36 @@ header
     position: relative;
 }
 
-button 
-{
-    transition: 0.125s;
-
+button {
+    transition: 0.125s all;
     font-family: 'Segoe UI', Tahoma, Verdana, 'Meiryo', sans-serif;
     display: inline-block;
     font-size: 14px;
     border-width: 0px;
     border-radius: 8px;
-    background-color: #F0F0F0;
+    background-color: #F0F0F0; /**/
+    /*background: linear-gradient(180deg, #c0c0c0, #808080); /**/
     color: #000;
     -webkit-appearance: none;
     -moz-appearance: none;
 }
 
-button:active 
-{
-    transition: 0.125s;
-    background-color: #c0c0c0;
-    transform: scale(87.5%); /*
-    background: linear-gradient(180deg, #404040, #808080);
-    transition: 0.125s;*/
-}
+    button:active {
+        transition: 0.125s all;
+        background-color: #c0c0c0;/**/
+        transform: scale(87.5%); /**/
+        /*background: linear-gradient(0deg, #404040, #202020); /**/
+    }
 
 .linkbutton
 {
     width: 160px;
     height: 32px;  
+}
+
+.longlinkbutton {
+    width: 320px;
+    height: 32px;
 }
 
 .selfintroductionlinkbutton
